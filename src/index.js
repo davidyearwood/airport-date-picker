@@ -1,11 +1,9 @@
-import _ from 'lodash';
+import getDays from './getDays.js';
 
-function component() {
-    let element = document.createElement('div');
-  
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  
-    return element;
-  }
-  
-  document.body.appendChild(component());
+var days = getDays(2018, 8);
+
+
+
+days.map((value, index) => {
+  console.log(value);
+});
