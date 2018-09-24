@@ -1,0 +1,38 @@
+.adp-flight-dates {
+    display: flex;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    flex-direction: row;
+    justify-content: center;
+}
+.adp-flight-date {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 1em;
+    align-items: center;
+    width: 40%;
+    margin-right: 1em;
+}
+
+.adp-flight-date__icon {
+    color: #888;
+}
+
+span.adp-flight-date__text {
+    font-family: 'Roboto';
+    color: #333;
+    margin-left: 1em;
+}
+
+.adp-flight-date__actions {
+    margin-left: auto;
+}
+
+.adp-flight-date__button {
+    border: none;
+    background: transparent;
+    color: #333;
+    cursor: pointer;
+}

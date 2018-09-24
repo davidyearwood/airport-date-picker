@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js",
-    "npx-webpack": "webpack"
+    "npx-webpack": "webpack",
+    "sass-watch": "sass --watch sass/stylesheet.scss:dist/assets/css/stylesheet.css"
   },
   "author": "",
   "license": "ISC",
